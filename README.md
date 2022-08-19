@@ -15,7 +15,7 @@ Other sources like the .unf formatting as well as inspirations for the PyTorch d
 # How to use the code:
 
 1. Download the .ipynb file
-2. Open the file and go down to "MAIN"
+2. Open the file and scroll down to "MAIN"
 3. In a separate cell, input your the filepath to your folder of DNA Origami and input the desired task
   - Be sure to run the cells above the main file beforehand
   - if extra libraries are required on your system, you can type "!pip install [required package]" at the very top
