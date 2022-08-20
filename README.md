@@ -4,7 +4,7 @@ This code takes a folder of DNA Origami Nanostructures in .json format and conve
 # Acknowledgements
 This project was my project for the Summer of 2022 in collaboration with Professor Rebecca Taylor at Carnegie Mellon University (CMU), in addition to Weitao Wang who, at the time of writing this, is a PhD Candidate at CMU. Special thanks to these individuals who had advised me while I created this projection. In addition, thanks to the members of the Microsystems and Mechanobiology Lab (MMBL) that provided me some DNA Origami nanostructures in addition to the ones I had found on Nanobase and on the websites of BIOCORD competitors.
 
-Other sources like the .unf formatting as well as inspirations for the PyTorch dataset class design and neural network testing design are acknowledged in the .ipynb file at their respectively used spots. Nevertheless, here are direct links to these other sources of information:
+Other sources like the .unf formatting in addition to inspirations for the PyTorch dataset class design and neural network testing design are acknowledged in the .ipynb file at their respectively used spots. Nevertheless, here are direct links to these other sources of information:
 
 - Kuťák, David, Erik Poppleton, Haichao Miao, Petr Šulc, and Ivan Barišić. 2022. "Unified Nanotechnology Format: One Way to Store Them All" Molecules 27, no. 1: 63. https://doi.org/10.3390/molecules27010063 ([Github Link](https://github.com/barisicgroup/unf))
 - Wang, Y., Wang, J., Cao, Z. et al. Molecular contrastive learning of representations via graph neural networks. Nat Mach Intell 4, 279–287 (2022). https://doi.org/10.1038/s42256-022-00447-x ([Github Link](https://github.com/yuyangw/MolCLR))
