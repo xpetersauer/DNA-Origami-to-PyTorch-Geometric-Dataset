@@ -6,7 +6,7 @@ This project was my project for the Summer of 2022 in collaboration with Profess
 
 Other sources like the .unf formatting as well as inspirations for the PyTorch dataset class design and neural network testing design are acknowledged in the .ipynb file at their respectively used spots. Nevertheless, here are direct links to these other sources of information:
 
-- Kuťák, David, Erik Poppleton, Haichao Miao, Petr Šulc, and Ivan Barišić. 2022. "Unified Nanotechnology Format: One Way to Store Them All" Molecules 27, no. 1: 63. https://doi.org/10.3390/molecules27010063 (Github: https://github.com/barisicgroup/unf)
+- Kuťák, David, Erik Poppleton, Haichao Miao, Petr Šulc, and Ivan Barišić. 2022. "Unified Nanotechnology Format: One Way to Store Them All" Molecules 27, no. 1: 63. https://doi.org/10.3390/molecules27010063 ([Github Link](https://github.com/barisicgroup/unf))
 - Wang, Y., Wang, J., Cao, Z. et al. Molecular contrastive learning of representations via graph neural networks. Nat Mach Intell 4, 279–287 (2022). https://doi.org/10.1038/s42256-022-00447-x ([Github Link](https://github.com/yuyangw/MolCLR))
 
 - PyTorch Geometric Tutorials (On Node and Graph Classification): [Link to Website](https://pytorch-geometric.readthedocs.io/en/latest/notes/colabs.html)
