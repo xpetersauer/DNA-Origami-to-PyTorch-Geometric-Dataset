@@ -20,7 +20,7 @@ Other sources like the .unf formatting and inspirations for the PyTorch dataset 
   - Be sure to run the cells above the main file beforehand
   - if extra libraries are required on your system, you can type "!pip install [required package]" at the very top
   - In this context, the assigning function (assigningFn) is your custom function to label a graph with the desired label. There are default functions provided and implemented into the code, but we suggest you provide a customized assigning function if you plan on using your dataset for more than just the specific tasks used for this project (node property classification and determining "real" from "fake" nanostructures)
-    - Also note that "graphs" are implemented as adjacency lists, not adjacency matrices. If your assigning function requires your graphs to be adjacency matrices, we suggest modifying the function "processData" and converting the outputs of the function "assembleGraphWithNodeAttributeDictionary" to adjacency matrices.
+    - Also note that the graph data-structure used are implemented as adjacency lists, not adjacency matrices. If your assigning function requires your graphs to be adjacency matrices, we suggest modifying the function "processData" and converting the outputs of the function "assembleGraphWithNodeAttributeDictionary" to adjacency matrices.
   
   
 # Sample Nanostructures
@@ -28,13 +28,14 @@ This repository also includes DNA Origami Nanostructures that comply with the vi
 
 # Other Uses
 
-- Visualizing Graphs
+## Visualizing Graphs
+
 You can visualize the graphs you made using the made-visualizer. There are multiple ways to visualize the graphs in your dataset:
 1. If you want to visualize every graph used as you process each graph, input the command "visualize=True" into the MAIN function.
 2. Otherwise, you can call the visualization function "visualize" onto your graph via "visualize([name_for_your_dataset].get_dataset()[index of the target graph])
 3. Alternatively, you can use PyTorch Geometric to visualize a graph in your dataset
 
-- Modifying Functions
+## Modifying Functions
 While it has been coded to work on Peter Sauer's local computer, this project has yet to be adequately tested on other systems. Changes may be necessary to set variables onto a GPU device if your dataset cannot be locally downloaded on a computer. Moreover, modifications of the code may be required to account for legacy code. Nevertheless, if there are errors in your code, each processing step is organized in its cell so that this modification process is more straightforward. Feel free to modify any functions provided; the function for processing the data and the classes may be the most susceptible to errors due to changes in different working environments.
 
 # Future Work
